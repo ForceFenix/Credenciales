@@ -1,22 +1,3 @@
-📦 credenciales-app/
-├── input/
-│   ├── fotos/                    # Fotos originales del personal
-│   └── firmas/                   # Firmas originales en JPEG
-├── output/
-│   ├── fotos/                    # Fotos recortadas y procesadas
-│   └── firmas/                   # Firmas optimizadas y redimensionadas
-├── core/
-│   ├── face_processor.py         # Lógica de procesamiento facial (vacío por ahora)
-│   └── signature_processor.py    # Lógica de procesamiento de firmas
-├── utils/
-│   ├── file_utils.py             # Funciones auxiliares para manejo de archivos
-│   └── image_utils.py            # Utilidades de imagen (saturación, resize, etc.)
-├── ui/
-│   └── main_window.py            # Interfaz gráfica (futura implementación)
-├── config.py                     # Configuración global del proyecto
-├── main.py                       # Punto de entrada principal
-└── requirements.txt              # Dependencias del proyecto
-
 🧠 Objetivo general:
 Automatizar el proceso de generación de credenciales para el personal,
 procesando automáticamente más de 1000 fotos y firmas por tanda.
